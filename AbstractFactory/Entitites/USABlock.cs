@@ -1,13 +1,13 @@
-﻿using PanelaTI.AbstractFactory.Interfaces;
+﻿using AbstractFactory.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PanelaTI.AbstractFactory.Entitites
+namespace AbstractFactory.Entitites
 {
-    public class USABlock: IBlock
+    public class USABlock : IBlock
     {
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }

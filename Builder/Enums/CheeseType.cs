@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory.Interfaces
+namespace Builder.Enums
 {
-    public interface IWell
+    public enum CheeseType
     {
-        string Name { get; set; }
+        Cheddar = 1
     }
 }

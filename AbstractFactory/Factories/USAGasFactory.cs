@@ -1,14 +1,14 @@
-﻿using PanelaTI.AbstractFactory.Entitites;
-using PanelaTI.AbstractFactory.Interfaces;
+﻿using AbstractFactory.Entitites;
+using AbstractFactory.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PanelaTI.AbstractFactory.Factories
+namespace AbstractFactory.Factories
 {
-    public class USAGasFactory:IOilGasFactory
+    public class USAGasFactory : IOilGasFactory
     {
         public IBlock BuildBlock()
         {

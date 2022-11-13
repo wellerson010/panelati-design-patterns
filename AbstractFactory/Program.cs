@@ -1,4 +1,4 @@
-﻿using PanelaTI.AbstractFactory.Factories;
+﻿using AbstractFactory.Factories;
 
 Console.WriteLine("Abstract Factory");
 
