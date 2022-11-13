@@ -1,15 +1,17 @@
-﻿using FactoryMethod.Factories;
+﻿using FactoryMethod;
+using FactoryMethod.Factories;
 
 Console.WriteLine("Factory Method");
 
 Console.WriteLine("Primeiro com PostgreSQL, depois com RavenDB");
 
-var postgreSQL = new PostgreSQLFramework();
-postgreSQL.Start();
-postgreSQL.Exit();
-
-var ravenDB = new RavenDBFramework();
-ravenDB.Start();
-ravenDB.Exit();
+Build(new PostgreSQLFramework());
+Build(new RavenDBFramework());
 
 Console.ReadKey();
+
+void Build(Framework framework)
+{
+    framework.Start();
+    framework.Exit();
+}
