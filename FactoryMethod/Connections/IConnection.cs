@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod.Connections
 {
-    internal class IConnection
+    public interface IConnection
     {
+        void Connect();
+
+        void Dispose();
     }
 }
