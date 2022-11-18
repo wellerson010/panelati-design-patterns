@@ -1,0 +1,4 @@
+﻿name=Wellerson Roberto by Text File
+age=27
+country=Brazil
+city=Rio de Janeiro
